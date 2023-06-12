@@ -8,6 +8,7 @@
   },
   "author": "Noah Scardina",
   "license": "MIT",
+  "types": "convertible_to_bigint.d.ts",
   "devDependencies": {
     "@babel/core": "^7.22.1",
     "@babel/preset-env": "^7.22.4",
