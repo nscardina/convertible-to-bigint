@@ -2,7 +2,11 @@
   "name": "convertible-to-bigint",
   "version": "0.1.1",
   "description": "Small JS library for determining whether a value can be converted to a bigint.",
-  "main": "convertible_to_bigint.js",
+  "main": "convertible_to_bigint.cjs",
+  "exports": {
+    "import": "./convertible_to_bigint.js",
+    "require": "./convertible_to_bigint.cjs"
+  },
   "scripts": {
     "test": "jest"
   },
