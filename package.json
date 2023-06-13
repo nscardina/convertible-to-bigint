@@ -4,8 +4,14 @@
   "description": "Small JS library for determining whether a value can be converted to a bigint.",
   "main": "convertible_to_bigint.cjs",
   "exports": {
-    "import": "./convertible_to_bigint.js",
-    "require": "./convertible_to_bigint.cjs"
+    "import": {
+      "default": "./convertible_to_bigint.mjs",
+      "types": "./convertible_to_bigint.d.mts"
+    },
+    "require": {
+      "default": "./convertible_to_bigint.cjs",
+      "types": "./convertible_to_bigint.d.cts"
+    }
   },
   "scripts": {
     "test": "jest"
